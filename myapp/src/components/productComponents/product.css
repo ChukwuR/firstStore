@@ -1,0 +1,34 @@
+@media(max-width: 767px){
+    .table{
+        width: 400px;
+    }
+}
+
+@media(min-width: 767px){
+    .table{
+        width: 600px;
+    }
+}
+
+@media(min-width: 1200px){
+    .table{
+        width: 800px;
+    }
+}
+
+.currentPricePage{
+    color: #0784b5;
+}
+
+@media(max-width: 767px){
+    .lead{
+        width: 400px;
+        margin-left: 5px;
+    }
+}
+
+@media(min-width: 767px){
+    .lead{
+        width: 800px;
+    }
+}

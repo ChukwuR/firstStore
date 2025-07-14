@@ -1,0 +1,10 @@
+.linkText{
+    text-decoration: none;
+    margin: 10px;
+}
+
+.logoImg{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}

@@ -1,0 +1,56 @@
+.cardFooter{
+    color: white;
+    margin-top: 50px;
+}
+
+@media(max-width: 767px){
+    .cardFooter{
+        width: 400px;
+        height: 60px;
+        padding: 10px;
+        margin-top: 30px;
+        margin: 10px;
+        justify-self: center;
+    }
+
+    .cardFooter #cardPTxt{
+        visibility: hidden;
+    }
+}
+
+@media(min-width: 767px){
+    .dropdown{
+        visibility: hidden;
+    }
+
+    .cardFooter{
+        border: none;
+    }
+}
+
+.social-icons{
+    justify-content: center;
+}
+
+.facebook, .instagram, .xtwiiter{
+    margin: 100px 50px 50px 50px;
+    font-size: x-large;
+}
+
+
+.neon-text {
+    text-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 20px cyan, 0 0 40px cyan, 0 0 80px cyan;
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px white, 0 0 10px white, 0 0 20px white, 0 0 40px white, 0 0 80px white;
+    }
+    50%{
+        text-shadow: 0 0 5px indigo, 0 0 10px indigo, 0 0 20px indigo, 0 0 40px indigo, 0 0 80px indigo;
+    }
+    100% {
+        text-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff, 0 0 40px #00d4ff, 0 0 80px #00d4ff, 0 0 160px #00d4ff;
+    }
+}

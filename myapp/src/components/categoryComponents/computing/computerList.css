@@ -1,0 +1,64 @@
+.computerTamplete{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.435), rgba(0, 0, 0, 0.435)), url(computerImg/compTamp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+@media(min-width: 767px){
+    .computerBackground{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.276), rgba(0, 0, 0, 0.276)) ,url(https://freedesignfile.com/upload/2017/01/Light-blue-tech-background-vector-06.jpg);
+    }
+}
+
+@media(max-width: 767px){
+    .computerTamplete{
+        height: 600px;
+    }
+}
+
+.computerTamplete p{
+    font-size: xx-large;
+    padding: 20px 80px 80px 80px;
+    color: white;
+    font-weight: bold;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 200%;
+    letter-spacing: 10px;
+}
+
+.computerLinkTxt{
+    text-decoration: none;
+}
+
+.computerLinkContainer{
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.productContainer{
+    justify-content: center;
+}
+
+.computerItemWrap{
+    background: linear-gradient(rgba(0, 0, 0, 0.223), rgba(0, 0, 128, 0.546));
+    /* #B0E0E6 */
+    margin: 0px 17px 70px 17px;
+    width: 250px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+.addcomputerItem{
+    justify-self: center;
+    margin-bottom: 10px;
+}
+
+/* .computerBackground *{
+    color: rgba(255, 255, 255, 0.175);
+} */

@@ -1,0 +1,120 @@
+/* empty css styling starts here */
+
+.emptyCartHead{
+    margin: 20px 0px 0px 30px;
+}
+
+.emptyCartContent{
+    margin: 100px 50px 50px 50px;
+    justify-self: center;
+    justify-items: center;
+    background-color: rgba(0, 0, 0, 0.199);
+    padding: 100px;
+    border-radius: 30px;
+}
+
+.emptyCartContent button.emptyCartBtn{
+    background-color: rgba(0, 255, 255, 0.755);
+}
+
+.cartTxt{
+    color: rgba(0, 0, 0, 0.787);
+}
+
+.cartTxt:hover{
+    color: black;
+}
+
+.emptyCartContent button.emptyCartBtn:hover{
+    background-color: cyan;
+    border: 2px solid black;
+}
+
+.emptyCartContent h5{
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.emptyCartIcon{
+    margin-top: 20px;
+    font-size: xx-large;
+}
+
+.emptyCartIcon{
+    animation: animeSize 2s linear infinite;
+}
+
+@keyframes animeSize{
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale: 1.5;
+    }
+}
+
+
+/* cart listed items css styling here */
+
+.listItem{
+    justify-content: center;
+}
+
+.listItem ul li{
+    background-color: rgba(128, 128, 128, 0.579);
+    margin: 10px;
+    border-radius: 25px;
+}
+
+div.checkoutBackground{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.583), rgba(0, 255, 255, 0.462)), url(https://img.freepik.com/free-photo/shopping-cart-filled-with-coins-copy-space-background_23-2148305919.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 50px 50px 50px;
+    color: white;
+}
+
+.checkoutBackground ul{
+    background-color:  rgba(0, 0, 0, 0.199);
+    text-align: center;
+    align-self: center;
+    border-radius: 50px;
+    color: rgba(255, 255, 255, 0.829);
+    justify-content: center;
+}
+
+@media(min-width: 1200px){
+    .checkoutBackground ul{
+        width: 1000px;
+    }
+}
+
+@media(max-width: 767px){
+    .listItem ul li{
+        width: 300px;
+    }
+}
+
+.checkoutBackground ul li{
+    padding: 20px 10px 20px 10px;
+}
+
+.checkoutBackground h2{
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.totalItems{
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    margin-top: 20px;
+}
+
+.checkoutImg{
+    scale: 0.9;
+    border-radius: 20px;
+}

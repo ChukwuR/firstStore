@@ -1,0 +1,53 @@
+.computer img{
+    width: 170px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+@media(min-width: 1200px){
+    .computer img{
+        height: 180px;
+    }
+}
+
+div.computerCard{
+    height: 400px;
+    margin-top: 30px;
+    align-items: center;
+    background: linear-gradient(white, rgba(0, 0, 128, 0.86));
+    border-top: 2px solid navy;
+    border-left: 2px solid navy;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+div.computerCard:hover{
+    scale: 1.1;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+@media(max-width: 767px){
+    div.computerCard{
+        width: 300px;
+        align-self: center;
+    }
+}
+
+div.card{
+    border: none;
+    font-weight: bold;
+    background: none;
+}
+
+.cateCartBtn{
+    background-color: #CCCCFF;
+    padding: 10px; 
+    font-weight: bold; 
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.cateCartBtn:hover{
+    background-color: white;
+}

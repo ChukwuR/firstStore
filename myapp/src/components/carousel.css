@@ -1,0 +1,45 @@
+    .groupImgs {
+      /* display: flex; */
+      /* flex-direction: row;  or flex-direction: column for vertical */
+      /* Add more styling as needed */
+
+      display: flex;
+      flex-wrap: nowrap;
+    }
+
+    
+
+.linkTxt{
+  text-decoration: none;
+  color: black;
+}
+
+.caroWrap{
+  background-color: white;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.currentPrice{
+  color: #0784b5;
+  font-weight: bold;
+}
+
+.productName{
+  color: navy;
+}
+
+.carousel-inner {
+  overflow: hidden;
+}
+
+.scroll-track {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 1rem;
+}
+.scroll-item {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+}

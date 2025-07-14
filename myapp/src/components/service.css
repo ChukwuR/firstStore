@@ -1,0 +1,49 @@
+#serviceCard{
+    background-color: white;
+    padding: 10px;
+    height: 170px;
+    border: 3px solid #0784b5;
+    border-radius: 25px;
+    margin-top: 40px;
+    cursor: pointer;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body.dark{
+    #serviceCard{
+        background: linear-gradient(white, white, white, cyan);
+    }
+}
+
+#serviceCard:hover{
+    scale: 1.1;
+    transition: 0.3s ease-in-out;
+}
+
+#serviceTxt{
+    text-align: center;
+    font-size: large;
+}
+
+#serviceIcon{
+    font-size: larger;
+    color: #044f6c;
+}
+
+#serviceIcon{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake{
+    0%{
+        transform: translateZ(10px);
+    }
+
+    50%{
+        transform: translateY(5px);
+    }
+}
+

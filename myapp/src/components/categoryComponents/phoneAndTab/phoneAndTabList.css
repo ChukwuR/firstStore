@@ -1,0 +1,60 @@
+.phoneTamplete{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.435), rgba(0, 0, 0, 0.435)), url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXP8N-rtXusncTUrOXuCAVRp9DVY1rutYatkoELMvM8Ybi8ozPbLr_5QlxLoBvSVyg4Bns7bONLSdbLA5bnFx_ZhoaO4hE8Z8IvJ1zJ3Wlk5rsqyH1_i2J3r9HqQ2rbHaaozIT32fwVix2/s600/beautiful-background-wallpapers-for-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+@media(min-width: 767px){
+    .phoneBackground{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.276), rgba(0, 0, 0, 0.276)) ,url(https://freedesignfile.com/upload/2017/01/Light-blue-tech-background-vector-06.jpg);
+    }
+}
+
+@media(max-width: 767px){
+    .phoneTamplete{
+        height: 600px;
+    }
+}
+
+.phoneTamplete p{
+    font-size: xx-large;
+    padding: 20px 80px 80px 80px;
+    color: white;
+    font-weight: bold;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 200%;
+    letter-spacing: 10px;
+}
+
+.phoneLinkTxt{
+    text-decoration: none;
+}
+
+.phoneLinkContainer{
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.productContainer{
+    justify-content: center;
+}
+
+.phoneItemWrap{
+    background: linear-gradient(rgba(0, 0, 0, 0.223), rgba(0, 0, 128, 0.546));
+    /* #B0E0E6 */
+    margin: 0px 17px 70px 17px;
+    width: 250px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+.addPhoneItem{
+    justify-self: center;
+    margin-bottom: 10px;
+}

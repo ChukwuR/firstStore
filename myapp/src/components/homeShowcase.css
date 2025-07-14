@@ -1,0 +1,172 @@
+#cardBackground{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 18px;
+    border: 3px solid #0784b5;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    font-weight: 570;
+    font-style: normal;
+}
+
+@media(min-width: 1200px){
+  #cardBackground{
+    height: 200px;
+  }
+}
+
+@media(max-width: 767px){
+  #cardBackground img{
+    border-radius: 50%;
+  }
+}
+
+body.dark{
+  #cardBackground{
+    background: linear-gradient(cyan, white, white, white);
+    color: black;
+  }
+}
+
+#cardBackground a{
+    color: white;
+    text-decoration: none;
+}
+
+#cardImage{
+    width: 120px;
+    height: 150px;
+    /* border-radius: 50px; */
+}
+
+
+#cardTopProduct #cardTopProductImg{
+  border-radius: 60px;
+}
+
+#cardBackground img{
+    animation: wiggle 2s linear infinite;
+}
+
+@keyframes wiggle{
+    0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
+#cardTopProduct img:hover{
+    animation: wiggle 2s linear infinite;
+}
+
+@media(max-width: 767px){
+  #cardBackground{
+    width: 300px;
+    justify-self: center;
+    text-align: center;
+  }
+
+  #cardTopProduct{
+    margin-top: 10px;
+  }
+}
+
+body.dark{
+  #cardTopProduct{
+    background: linear-gradient(white, white, white, cyan);
+  }
+}
+
+#cardTopProduct{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    font-weight: 570;
+    font-style: normal;
+}
+
+/* #cardTopProductImg{
+    border-radius: 40%;
+} */
+
+@media(max-width: 1200px){
+    #homeAccessoriesWrap{
+        justify-content: center;
+    }
+}
+
+
+
+/* .holographic-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+
+.holographic-card {
+  /* width: 300px;
+  height: 200px;
+  background: #111;
+  display: flex;
+  justify-content: center; */
+  /* align-items: center; */
+  position: relative;
+  overflow: hidden;
+  /* border-radius: 15px; */
+  transition: all 0.5s ease;
+}
+
+.holographic-card h2 {
+  color: #0ff;
+  font-size: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.holographic-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    0deg, 
+    transparent, 
+    transparent 30%, 
+    rgba(0, 8, 255, 0.3)
+  );
+  transform: rotate(-45deg);
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+
+.holographic-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0,255,255,0.5);
+}
+
+.holographic-card:hover::before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}

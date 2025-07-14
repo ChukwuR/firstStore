@@ -1,0 +1,18 @@
+.card{
+    background: none;
+    border: none;
+}
+
+/* @media(max-width: 767px){
+    .feature{
+        text-align: center;
+    }
+} */
+
+.cart{
+    background-color: #CCCCFF;
+    width: 300px; 
+    padding: 10px; 
+    font-weight: bold; 
+    border-radius: 5px;
+}

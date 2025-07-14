@@ -1,0 +1,185 @@
+.cateTamplete{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.435), rgba(0, 0, 0, 0.435)), url(https://img.freepik.com/premium-photo/flat-lay-various-electronics-accessories-blue-background_14117-579417.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+@media(max-width: 767px){
+    .cateTamplete{
+        height: 600px;
+    }
+}
+
+.cateTamplete p{
+    font-size: xx-large;
+    padding: 20px 80px 80px 80px;
+    color: white;
+    font-weight: bold;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 200%;
+    letter-spacing: 10px;
+}
+
+.cateItem{
+    text-align: center;
+}
+
+.cateItem img{
+    width: 300px;
+    height: 300px;
+}
+
+@media(min-width: 767px){.cateContainer{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.276), rgba(0, 0, 0, 0.276)) ,url(https://freedesignfile.com/upload/2017/01/Light-blue-tech-background-vector-06.jpg);
+    }
+}
+
+.box {
+	display: flex;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.box .inner {
+	width: 400px;
+	height: 200px;
+	line-height: 200px;
+	font-size: 4em;
+	font-family: sans-serif;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.box .inner:first-child {
+	background-color: #0784b5da;
+	color: navy;
+	transform-origin: right;
+	transform: perspective(100px) rotateY(-15deg);
+}
+
+.box .inner:last-child {
+	background-color: #0784b5;
+	color: antiquewhite;
+	transform-origin: left;
+	transform: perspective(100px) rotateY(15deg);
+}
+
+.box .inner span {
+	position: absolute;
+	animation: marquee 5s linear infinite;
+}
+
+.box .inner:first-child span {
+	animation-delay: 2.5s;
+	left: -100%;
+}
+
+@keyframes marquee {
+	from {
+		left: 100%;
+	}
+
+	to {
+		left: -100%;
+	}
+}
+
+@keyframes size{
+    0%{
+        transform: scale(0.7);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+    0%{
+        transform: scale(0.7);
+    }
+}
+
+.cateHeadWrap{
+    justify-content: center;
+}
+
+.cateHead{
+    font-size: xx-large;
+    line-height: 50px;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+}
+
+.cateHeadImg{
+    width: 450px;
+    height: 350px;
+    border-radius: 50px;
+}
+
+@media(min-width: 1200px){
+    .cateHead{
+        margin-top: 100px;
+    }
+}
+
+@media(max-width: 767px){
+    .cateHeadImg{
+        width: 350px;
+        height: 250px;
+    }
+
+    .cateCardDisplay img{
+        transform: scale(0.8);
+    }
+}
+
+.cateDisplayTxt{
+    font-family: "WDXL Lubrifont TC", sans-serif;
+}
+
+.cateCardDisplay img{
+    scale: 0.8;
+    border-radius: 25px;
+}
+
+.cateCardDisplay img:hover{
+    scale: 1;
+    transition: 0.5s ease-in-out;
+}
+
+.seeMoreImg{
+    animation: wiggle 2s linear infinite;
+}
+
+.cateHeadImg:hover{
+    animation: wiggle 2s linear infinite;
+}
+
+@keyframes wiggle{
+    0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}

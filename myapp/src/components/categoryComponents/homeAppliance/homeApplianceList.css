@@ -1,0 +1,32 @@
+.homeTamplete{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.435), rgba(0, 0, 0, 0.435)), url(https://www.shutterstock.com/image-photo/set-home-kitchen-appliances-room-260nw-2473408983.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+@media(min-width: 767px){
+    .homeBackground{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.276), rgba(0, 0, 0, 0.276)) ,url(https://freedesignfile.com/upload/2017/01/Light-blue-tech-background-vector-06.jpg);
+    }
+}
+
+@media(max-width: 767px){
+    .homeTamplete{
+        height: 600px;
+    }
+}
+
+.homeTamplete p{
+    font-size: xx-large;
+    padding: 20px 80px 80px 80px;
+    color: white;
+    font-weight: bold;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 200%;
+    letter-spacing: 10px;
+}
