@@ -4,7 +4,7 @@ import Service from './Service';
 import HomeShowCase from './HomeShowCase';
 import Preview from './Preview';
 import Carousel from './Carousel';
-import TampleteCarousel from './tampleteCarousel';
+import TampleteCarousel from '../components/TampleteCarousel';
 import Footer from './Footer';
 
 function Home(){

@@ -40,7 +40,7 @@ function TampleteCarousel(){
                                 Our shop provide the perfect & best quality product
                             </p>
                             <Link to='/Category'>
-                                <button className='btn btn-secondary liquid ms-lg-4'><a href="#">Shop Now</a></button>
+                                <button className='btn btn-secondary liquid ms-lg-4'>Shop Now</button>
                             </Link>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ function TampleteCarousel(){
                                 Our shop provide the perfect & best quality product
                             </p>
                             <Link to='/Category'>
-                                <button className='btn btn-secondary liquid ms-lg-4'><a href="#">Shop Now</a></button>
+                                <button className='btn btn-secondary liquid ms-lg-4'>Shop Now</button>
                             </Link>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ function TampleteCarousel(){
                                 Our shop provide the perfect & best quality product
                             </p>
                             <Link to='/Category'>
-                                <button className='btn btn-secondary liquid ms-lg-4'><a href="#">Shop Now</a></button>
+                                <button className='btn btn-secondary liquid ms-lg-4'>Shop Now</button>
                             </Link>
                         </div>
                     </div>
