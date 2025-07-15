@@ -1,6 +1,6 @@
 import { useCart } from './CartContext';
 import { Link } from 'react-router-dom';
-import './CartIcon.css';
+import './cartIcon.css';
 
 export default function CartIcon() {
   const {cart} = useCart();
