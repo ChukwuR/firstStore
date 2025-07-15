@@ -13,15 +13,15 @@
         justify-self: center;
     }
 
-    .cardFooter #cardPTxt{
+    /* .cardFooter #cardPTxt{
         visibility: hidden;
-    }
+    } */
 }
 
 @media(min-width: 767px){
-    .dropdown{
+    /* .dropdown{
         visibility: hidden;
-    }
+    } */
 
     .cardFooter{
         border: none;

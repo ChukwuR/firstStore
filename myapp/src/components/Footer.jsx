@@ -54,6 +54,11 @@ function Footer(){
                         </div>
                     </div>
                 </div>
+                <div className="container d-flex social-icons neon-container">
+                    <div className='facebook neon-text'><i className="bi bi-facebook"></i></div>
+                    <div className="instagram neon-text"><i className="bi bi-instagram"></i></div>
+                    <div className="xtwiiter neon-text"><i className="bi bi-twitter-x"></i></div>
+                </div>
             </div>
         </>
     )
