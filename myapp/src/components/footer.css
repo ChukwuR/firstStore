@@ -1,9 +1,15 @@
-.cardFooter{
+/* .cardFooter{
     color: white;
+} */
+
+.footerWrap{
+    color: white;
+    /* width: 100px; */
+    display: flex;
     margin-top: 50px;
 }
 
-@media(max-width: 767px){
+/* @media(max-width: 767px){
     .cardFooter{
         width: 400px;
         height: 60px;
@@ -11,22 +17,22 @@
         margin-top: 30px;
         margin: 10px;
         justify-self: center;
-    }
+    } */
 
     /* .cardFooter #cardPTxt{
         visibility: hidden;
     } */
-}
+/* } */
 
-@media(min-width: 767px){
+/* @media(min-width: 767px){ */
     /* .dropdown{
         visibility: hidden;
     } */
 
-    .cardFooter{
+    /* .cardFooter{
         border: none;
     }
-}
+} */
 
 .social-icons{
     justify-content: center;
